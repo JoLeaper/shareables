@@ -1,5 +1,7 @@
 /* 
 app.post('/new-post', async(req, res) => {
+    const data = Note.execute(req.body)
+    res.json(data.rows);
 });
 
 app.get('/get-one-post', async(req, res) => {
