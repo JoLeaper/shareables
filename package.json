@@ -24,6 +24,7 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "minimist": "^1.2.5",
     "mongoose": "^5.9.17",
     "supertest": "^4.0.2"
